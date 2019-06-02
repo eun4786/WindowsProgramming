@@ -1,0 +1,44 @@
+Name
+Description (description for item if required)
+Type (includes Weapon Armour Potion Food Misc)
+Sub-Type (includes type of weapon, type of armour eg. light/heavy, type of potion eg. health, mana etc. )
+Attribute (includes Damage ArmourValue EffectMagnitude EffectMagnitude None) EffectMagnitude example. For a health potion will be how much health it restores, or how much magic it restores etc. For a weapon it will be how much damage it does.
+Durability (for potions and other consumables this will be 1, it is gone after 1 use. Weapons and armour will be higher. eg. 30/30.)
+
+
+eg.
+
+Wooden Sword (name)
+Its pretty much a childrens toy (description)
+Weapon (type)
+Sword (sub type ... can be used later for weapon type bonuses for example)
+1 (attribute ... in this case how much base damage it does)
+10 (durability)
+Fresh Bread (name)
+Nice Fresh Bread (description)
+Food (type)
+Health (sub type... in this case the food will restore health when consumed)
+2 (attribute ... will restore 1 health)
+1 (durablity ... one use and it will be consumed)
+
+Item list starts after this. Program to look for the double hash to start reading items in.
+
+##
+Wooden Sword
+It's pretty much a childrens toy.
+Weapon
+Sword
+1
+10
+Fresh Bread
+Nice Fresh Bread.
+Food
+Health
+2
+1
+Stale Bread
+You have kept this bread too long. Now its stale.
+Food
+Health
+1
+1

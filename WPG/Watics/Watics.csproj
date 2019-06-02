@@ -57,8 +57,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Classes\ObWatics.cs" />
-    <Compile Include="Window1.xaml.cs">
+    <Compile Include="Factories\CharacterClassList.cs" />
+    <Compile Include="Factories\ItemList.cs" />
+    <Compile Include="Factories\MapList.cs" />
+    <Compile Include="Factories\SkillList.cs" />
+    <Compile Include="Models\CharacterClass.cs" />
+    <Compile Include="Models\GameItem.cs" />
+    <Compile Include="Models\InventoryItem.cs" />
+    <Compile Include="Models\Map.cs" />
+    <Compile Include="Models\Player.cs" />
+    <Compile Include="Models\PlayerInventory.cs" />
+    <Compile Include="Models\Skill.cs" />
+    <Compile Include="UI\Dialog.xaml.cs">
+      <DependentUpon>Dialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\GameSession.cs" />
+    <Compile Include="ViewModels\Stage.cs" />
+    <Compile Include="Windows\Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
@@ -73,7 +88,11 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Window1.xaml">
+    <Page Include="UI\Dialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Window1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -104,6 +123,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="GameData\Chars\" />
+    <Folder Include="GameData\Items\" />
+    <Folder Include="GameData\Maps\" />
+    <Folder Include="GameData\Skills\" />
+    <Folder Include="Images\Chars\" />
+    <Folder Include="Images\Items\" />
+    <Folder Include="Images\Maps\" />
+    <Folder Include="Images\Skills\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Test01\source\repos\WPG\Watics\App.xaml
-2462529049
+3635649625
 
-11660308587
+24-266246058
 151984215308
-MainWindow.xaml;Window1.xaml;
+MainWindow.xaml;UI\Dialog.xaml;Windows\Window1.xaml;
 
-False
+True
 

@@ -1,0 +1,17 @@
+C:\Users\Test01\source\repos\WPG\Watics\bin\Debug\Watics.exe.config
+C:\Users\Test01\source\repos\WPG\Watics\bin\Debug\Watics.exe
+C:\Users\Test01\source\repos\WPG\Watics\bin\Debug\Watics.pdb
+C:\Users\Test01\source\repos\WPG\Watics\obj\Debug\Watics.csprojAssemblyReference.cache
+C:\Users\Test01\source\repos\WPG\Watics\obj\Debug\MainWindow.g.cs
+C:\Users\Test01\source\repos\WPG\Watics\obj\Debug\Window1.g.cs
+C:\Users\Test01\source\repos\WPG\Watics\obj\Debug\App.g.cs
+C:\Users\Test01\source\repos\WPG\Watics\obj\Debug\Watics_MarkupCompile.cache
+C:\Users\Test01\source\repos\WPG\Watics\obj\Debug\Watics_MarkupCompile.lref
+C:\Users\Test01\source\repos\WPG\Watics\obj\Debug\MainWindow.baml
+C:\Users\Test01\source\repos\WPG\Watics\obj\Debug\Window1.baml
+C:\Users\Test01\source\repos\WPG\Watics\obj\Debug\Watics.g.resources
+C:\Users\Test01\source\repos\WPG\Watics\obj\Debug\Watics.Properties.Resources.resources
+C:\Users\Test01\source\repos\WPG\Watics\obj\Debug\Watics.csproj.GenerateResource.cache
+C:\Users\Test01\source\repos\WPG\Watics\obj\Debug\Watics.csproj.CoreCompileInputs.cache
+C:\Users\Test01\source\repos\WPG\Watics\obj\Debug\Watics.exe
+C:\Users\Test01\source\repos\WPG\Watics\obj\Debug\Watics.pdb
